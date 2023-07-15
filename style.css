@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+::before ::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Quicksand', sans-serif;
+   
+}
+.navigasi {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.navbar nav .logo img{
+    width: 50px;
+    display: flex;
+    margin-left: 20px;
+    
+    
+
+}
+.navbar nav .judul{
+    display: flex;
+    margin-left: -40px;
+    
+    
+}
+.bg{
+    background-image: url('img/latar\ belakang.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    /* justify-content: ; */
+
+}
+
+
+
+.navbar nav{
+    width: 100%;
+    margin-inline: auto;
+    background-color: #8696FE;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    overflow: auto;
+   
+    
+
+} 
+.navbar nav .divnavlist{
+    display: flex;
+    list-style: none;
+    gap: 2rem 1rem;
+    transition: all.2s ease-in-out;
+    justify-content: left;
+    padding-left: 60%;
+    
+    
+    
+}
+.divnavlist li,a{
+    display: flex;
+    text-decoration: none;
+    font-size: 15px;
+    z-index: 999;
+    border-radius: 999px;
+    align-items:center;
+    color: rgb(209, 241, 255);
+    cursor: pointer;
+    
+    
+}
+.divnavlist li a:hover{
+    color: rgb(252, 252, 252);
+    padding: 1px 0px 0px 0px;
+    
+}
+.divnavlist li:hover{
+    background-color: #5b6eff;
+   
+}
+.divnavlist li a:active{
+    background-color: #001be9;
+}
+.bg1 .bg #text-judul{
+    max-width: 70%;
+    margin-top:70px;
+    margin-left: 15px;
+    text-align: inherit;
+   
+    
+}
+#text-judul h1{
+    color: rgb(248, 224, 181);
+}
+#text-judul p {
+    text-indent: 1rem;
+    text-align:left;
+    margin-left: 1px;
+
+}
+#text-judul{
+    color: rgb(225, 241, 255);
+    font-family: 'Zilla Slab', serif;
+    
+}
+.unduh1 button{
+    background-color:#94a2ff;
+    color: gold;
+}
+.unduh1 {
+    margin-left: 20px;
+}
+.unduh1 button:hover{
+    box-shadow: 2px 2px 8px 2px #919eff;
+    margin-left: 1px;
+    
+}
+#main p,ul li{
+    margin-left: 10px;
+   
+}
+#main #farming{
+    display: flex;
+    justify-content: center;
+}
+#main #farming img{
+    height: auto;
+    width: 200px;
+    padding: 20px;
+    
+
+}
+#main #farming img:hover{
+    background-color: #e0e3ff;
+    padding: 19px;
+}
+.textmain{
+    background-color:#e0e3ff;
+    padding: 12px;
+   
+    
+    
+
+}
+.textmain p{
+    font-size: 17px;
+    max-width: 80%;
+    
+}
+.textmain:hover{
+    box-shadow: 3px 3px 12px 3px black;
+}
+.text1 img{
+    width: 50px;
+    
+}
+.text1{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+.text1 .textdalam1 p{
+    text-align: justify;
+    text-indent: 1rem;
+
+    
+    
+}
+.download {
+    background-color: #b5befc;
+    box-shadow: 2px 2px 8px 0px black;
+    display: flex;
+    
+
+}
+.download h1{
+    margin-left: 21px;
+}
+.download .listbadge{
+    display: flex;
+    list-style: none;
+}
+.download .listbadge li a:hover{
+    margin-left: 1px;
+    background-color: #001be9;
+}
+aside{
+    display: flex;
+    justify-content: center;
+    background-color: #8898ff;
+
+}
+aside .profile .judul-bio{
+    text-align: center;
+    font-size: 16px ;
+}
+.profile{
+    background-color: #7587fc;
+    display: block;
+    padding: 15px;
+    box-shadow: 2px 2px 8px 2px #001be9;
+}
+.profile .profilee ul p{
+    font-size: 12px;
+}
+aside .profil img{
+    width: 70px;
+}
+aside .profil{
+    display: flex;
+    justify-content: center;
+}
+.profile .profilee ul li{
+    font-weight: 600;
+    font-size: 12px;
+}
+
+footer{
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+}
+footer .akhir .logoakhir img{
+    width: 40px;
+}
+footer .akhir .logoakhir{
+    display: flex;
+    justify-content: center;
+}
+footer .akhir{
+    text-align: center;
+    width: 14x;
+    font-size: 13px;
+
+}
+
+@media  screen and (max-width:768px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar nav{
+        /* padding-block: 1px; */
+        padding: 5px;
+        
+    }
+    .navbar nav .divnavlist{
+        padding-left: 3%;
+        padding-right: 20px;
+        font-size: 30%;
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+    .navbar nav .divnavlist li a{
+        font-size: small;
+        margin: 1px;
+    }
+    .navbar nav .logo img{
+        width: 50px;
+        /* margin-left: px; */
+        align-items: center;
+    }
+    .navbar nav .judul{
+        font-size: 15px;
+        margin-left:-150px ;
+        display: none;
+
+    }
+    .navbar .bg{
+        background-repeat: no-repeat;
+        background-size:cover;
+        width: 100%;
+        height: 330px;
+    }
+    .bg1 .bg #text-judul{
+        font-size: small;
+        max-width: 85%;
+        margin-top: 40px;
+        
+    }
+    #text-judul p{
+        text-align: justify;
+    }
+    #text-judul h1{
+        font-size: 19px;
+        font-weight: 30px;
+
+        
+    }
+    #main #farming img{
+        width: 60px;
+        padding: 5px;
+    }
+    #main #farming img:hover{
+        padding: 5px;
+    }
+    .download .listbadge li img{
+        width: 70px;
+    }
+    .text1{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .textmain p,ul{
+        font-size: 15px;
+        text-align: justify;
+    }
+}
+
